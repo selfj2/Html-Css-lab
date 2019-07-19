@@ -131,6 +131,112 @@ footer{
     height: 25px;
     width: 80px;
     margin: 14px;
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+
+    header{
+        display: flex;
+        flex-direction: column;
+        color: #69696a;
+    }
+
+    nav{
+        display: block;
+      }
+
+      nav ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+      
+      nav li{
+        text-decoration: none;
+        font-weight: 300;
+        font-size: 12px;
+        color:#69696a;
+        padding: 13px;
+      }
+
+
+      button{
+        background-color: #000;
+        color: #fff;
+        border: 1px solid black;
+        padding: 0px;
+        border-radius: 15px;
+        height: 30px;
+        width: 100%;
+        margin: 13px;
+      }
+
+      .split{
+          display: block;
+          width: 100%;
+      }
+
+      .split:last-of-type{
+          display: none;
+      }
+
+      .span-container{
+        margin-top: 10%;
+        margin-bottom: -30px;
+    }
+    
+    span{
+        font-weight: 800;
+        margin-left: 28px;
+        font-size: 2.25em;
+    }
+
+      p{
+        padding: 25px;
+        margin: 20px;
+        font-size: 1.15em;
+        color: #69696a;
+    }
+      
+    p:before {
+        content: " ";
+        position: absolute;
+        left: 30px;
+        top: 11%;
+        height: 80%;
+        width: 2px;
+        background: #69696a;
+    }
+
+      .pink{
+          display: none;
+      }
+
+      .purple{
+          display: none;
+      }
+
+      .tan{
+          display: none;
+      }
+      
+      .btn{
+        background-color: #000;
+        color: #fff;
+        border: 1px solid black;
+        padding: 3px;
+        border-radius: 15px;
+        height: 25px;
+        width: 100%;
+    }
+
+    footer{
+        display: block;
+    }
+
 
 }
 
