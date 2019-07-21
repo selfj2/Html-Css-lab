@@ -31,7 +31,7 @@ nav{
     font-size: 12px;
     color:#69696a;
     display: inline;
-    padding: 13px;
+    padding-right: 20px;
   }
 
   button{
@@ -63,14 +63,16 @@ span{
 }
 
 p{
-    padding: 25px;
-    margin: 20px;
+    padding-left: 5%;
+    margin-top: 8%;
+    margin-left: 6%;
     font-size: 1.15em;
     color: #69696a;
+    border-left: 2px solid #69696a;
 }
 
 
-p:before {
+/*p:before {
     content: " ";
     position: absolute;
     left: 30px;
@@ -78,7 +80,7 @@ p:before {
     height: 50%;
     width: 2px;
     background: #69696a;
-}
+}  */
 
 section{
     display: flex;
@@ -152,6 +154,7 @@ footer{
 
       h3{
           margin: 0;
+          margin-left: 2%;
       }
 
       nav ul{
@@ -166,8 +169,10 @@ footer{
         text-decoration: none;
         font-weight: 300;
         font-size: 16px;
-        color:#69696a;
-        padding: 0;
+        color: #69696a;
+        padding-bottom: 2%;
+        padding-right: 0;
+        margin-left: 2%;
       }
 
 
@@ -176,15 +181,17 @@ footer{
         color: #fff;
         border: 1px solid black;
         padding: 0px;
-        border-radius: 15px;
-        height: 30px;
+        border-radius: 20px;
+        height: 40px;
         width: 100%;
         margin: 0;
+        margin-left: 2%;
       }
 
       .split{
-          display: block;
-          width: 100%;
+        display: block;
+        width: 100%;
+        margin-top: 6%;
       }
 
       .split:last-of-type{
@@ -204,9 +211,8 @@ footer{
 
       p{
         border-left: 2px solid #69696a;
-        padding: 0;
-        margin-top: 3em;
-        margin-left: 2.1em;
+        padding-left: 5%;
+        margin-left: 3%;
         color: #69696a;
     }
       
